@@ -1,0 +1,135 @@
+* {
+    box-sizing:border-box;
+    margin:10;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(117, 4, 4);
+    color:blanchedalmond;
+
+
+}
+
+header{
+    padding:2em 1.2em;
+    max-width:500px;
+    width:100%;
+    margin:0 auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color:rgb(0, 0, 0);
+    margin-bottom: 16px;;
+}
+
+
+#nouvelle_tache{
+
+    display: flex;
+}
+
+input,button{
+    border:none;
+   
+
+}
+.nouvelle_tache_bt{
+    flex: 1 1 0%;
+    background-color: rgb(15, 15, 15);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color:white;
+    font-size: 1.2rem;
+}
+
+input[type="submit" i]  {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    background-color: blue;
+    font-size:1.2rem;
+    font-weight:bold;
+    background: linear-gradient(#d478e0, #3e479b);
+
+}
+
+main{
+display:1 1 0%;
+padding: 2rem 1rem;
+max-width: 500px;
+width:100%;
+margin:0 auto;
+
+}
+
+.tache-liste{
+    padding: 1rem;
+
+}
+
+.tache-liste h3 {
+    font-size: 1.2rem;
+    font-weight: light;
+    color:rgb(12, 11, 11);
+    margin-bottom: 1.7rem;
+
+
+}
+
+
+#taches .taches{
+        display:flex;
+        justify-content: space-around;
+       
+}
+
+ #taches .taches .contenu .text{
+    color:white;
+    font-size:1.8rem;
+    width:100%;
+
+}
+
+#taches .taches .contenu .texte:not(:read-only){
+    color:#370D05;
+    
+}
+
+#taches .taches .action{
+    display: flex;
+    margin: 0 1.1rem;
+}
+.taches .contenu input{
+    font-size:1rem;
+}
+.taches .action button {
+
+    cursor:pointer;
+    font-size:1.2rem;
+}
+
+.taches .action .edit {
+
+    background-color: blue;
+    font-size:1.2rem;
+    font-weight:bold;
+    background: linear-gradient(#d478e0, #3e479b);
+    
+}
+
+.taches .action .delete {
+
+    color: #231085;
+    font-size:1.2rem;
+    font-weight:bold;
+    background-color: turquoise;
+    
+}

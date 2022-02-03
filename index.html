@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brief to-do-list</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>TO-DO-LIST recette pizza</h1>
+        <form id="nouvelle_tache">
+            <input type="text" class="nouvelle_tache_bt " id="nouvelle_tache_bt" placeholder="Que faisons-nous?" />
+            <input type="submit" class="nouvelle_tache_bs" value="ajouter une tâche" />
+        </form>
+
+    </header>
+
+    <main>
+        <section class="tache-liste">
+
+            <h3>tâches</h3>
+
+            <div id="taches">
+
+                <div class="taches">
+                    <div class="contenu">
+
+                        <input type="text" class="texte" value="tache" readonly />
+                        <!--attribut radonly qui empêche la saisie de la value-->
+                    </div>
+                    <div class="action">
+                        <button class="edit">modifier</button>
+                        <button class="delete">supprimer</button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+</body>
+<script src="script.js" defer></script>
+
+</html>
