@@ -92,7 +92,7 @@ margin:0 auto;
 }
 
  #taches .taches .contenu .text{
-    color:white;
+    color:rgb(10, 10, 10);
     font-size:1.8rem;
     width:100%;
 
@@ -132,4 +132,41 @@ margin:0 auto;
     font-weight:bold;
     background-color: turquoise;
     
+}
+
+input.text{
+    border:solid;
+    color:rgb(2, 1, 1);
+    font-size:1.8rem;
+    width:0%;
+
+}
+
+div.action{
+display: flex;
+margin: 0 1.1rem;
+    
+}
+
+button.delete{
+    color: #231085;
+    font-size:1.2rem;
+    font-weight:bold;
+    background-color: turquoise;
+    
+}
+
+button.edit{
+    background-color: blue;
+ 
+    font-size:1.2rem;
+    font-weight:bold;
+    background: linear-gradient(#d478e0, #3e479b);
+
+}
+
+div.tache{
+    display:flex;
+    justify-content: space-around;
+
 }
