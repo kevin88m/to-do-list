@@ -60,9 +60,15 @@ window.addEventListener('load',()=>{
                 tache_input_el.focus();
                 tache_edit_el.innerText = "sauvegarde";
                 }else{
-                    console.log("sauvegarde");
+                    tache_input_el.setAttribute("readonly","readonly");
+                    tache_edit_el.innerText = "Edit";
                 }
-            })
+            });
 
-    })
-})
+            tache_delete_el.addEventListener('click',()=>
+            {   list_el.removeChild(tache_el);
+
+            });
+
+    });
+});
